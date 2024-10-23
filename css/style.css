@@ -336,13 +336,14 @@ main {
 .slider{
     width: 100%;
     height: var(--height-logos);
-    overflow: hidden;
+    overflow: scroll;
     mask-image: linear-gradient(
         to right,
         transparent,
         #000 10% 90%,
         transparent
     );
+    scrollbar-width: auto;
 }
 
 /* Lista que contendrá los elementos */
